@@ -1,0 +1,25 @@
+- extends "shadowless.roster/base.haml"
+
+- load roster
+
+- block content
+    %h2 Guild Members
+    %table.roster
+        %tr
+            %th Name
+            %th Race
+            %th Class
+            %th Level
+            %th Rank
+            %th Specs
+        - for char in chars
+            %tr{:class => "{{ char.klass.name|class_name_css_fix }}"}
+                %td= char.name
+                %td= char.race
+                %td= char.klass
+                %td= char.level
+                %td= char.rank.name
+                %td
+                    - for spec in char.specs.all
+                        %ul
+                            %li {{spec.name}} ({{spec.role}})

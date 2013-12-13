@@ -1,0 +1,417 @@
+- fields: {name: Death Knight}
+  model: fixdata.class
+  pk: 1
+- fields: {name: Druid}
+  model: fixdata.class
+  pk: 2
+- fields: {name: Hunter}
+  model: fixdata.class
+  pk: 3
+- fields: {name: Mage}
+  model: fixdata.class
+  pk: 4
+- fields: {name: Monk}
+  model: fixdata.class
+  pk: 5
+- fields: {name: Paladin}
+  model: fixdata.class
+  pk: 6
+- fields: {name: Priest}
+  model: fixdata.class
+  pk: 7
+- fields: {name: Rogue}
+  model: fixdata.class
+  pk: 8
+- fields: {name: Shaman}
+  model: fixdata.class
+  pk: 9
+- fields: {name: Warlock}
+  model: fixdata.class
+  pk: 10
+- fields: {name: Warrior}
+  model: fixdata.class
+  pk: 11
+- fields: {name: Human}
+  model: fixdata.race
+  pk: 1
+- fields: {name: Dwarf}
+  model: fixdata.race
+  pk: 2
+- fields: {name: Night Elf}
+  model: fixdata.race
+  pk: 3
+- fields: {name: Gnome}
+  model: fixdata.race
+  pk: 4
+- fields: {name: Draenei}
+  model: fixdata.race
+  pk: 5
+- fields: {name: Worgen}
+  model: fixdata.race
+  pk: 6
+- fields: {name: Pandaren}
+  model: fixdata.race
+  pk: 7
+- fields: {name: Orc}
+  model: fixdata.race
+  pk: 8
+- fields: {name: Undead}
+  model: fixdata.race
+  pk: 9
+- fields: {name: Tauren}
+  model: fixdata.race
+  pk: 10
+- fields: {name: Troll}
+  model: fixdata.race
+  pk: 11
+- fields: {name: Blood Elf}
+  model: fixdata.race
+  pk: 12
+- fields: {name: Goblin}
+  model: fixdata.race
+  pk: 13
+- fields: {name: Aerie Peak}
+  model: fixdata.realm
+  pk: 1
+- fields: {name: Agamaggan}
+  model: fixdata.realm
+  pk: 2
+- fields: {name: "Aggra(Portugu\xEAs)"}
+  model: fixdata.realm
+  pk: 3
+- fields: {name: Aggramar}
+  model: fixdata.realm
+  pk: 4
+- fields: {name: Ahn'Qiraj}
+  model: fixdata.realm
+  pk: 5
+- fields: {name: Al'Akir}
+  model: fixdata.realm
+  pk: 6
+- fields: {name: Alonsus}
+  model: fixdata.realm
+  pk: 7
+- fields: {name: Anachronos}
+  model: fixdata.realm
+  pk: 8
+- fields: {name: Arathor}
+  model: fixdata.realm
+  pk: 9
+- fields: {name: Argent Dawn}
+  model: fixdata.realm
+  pk: 10
+- fields: {name: Aszune}
+  model: fixdata.realm
+  pk: 11
+- fields: {name: Auchindoun}
+  model: fixdata.realm
+  pk: 12
+- fields: {name: Azjol-Nerub}
+  model: fixdata.realm
+  pk: 13
+- fields: {name: Azuremyst}
+  model: fixdata.realm
+  pk: 14
+- fields: {name: Balnazzar}
+  model: fixdata.realm
+  pk: 15
+- fields: {name: Blade's Edge}
+  model: fixdata.realm
+  pk: 16
+- fields: {name: Bladefist}
+  model: fixdata.realm
+  pk: 17
+- fields: {name: Bloodfeather}
+  model: fixdata.realm
+  pk: 18
+- fields: {name: Bloodhoof}
+  model: fixdata.realm
+  pk: 19
+- fields: {name: Bloodscalp}
+  model: fixdata.realm
+  pk: 20
+- fields: {name: Boulderfist}
+  model: fixdata.realm
+  pk: 21
+- fields: {name: Bronze Dragonflight}
+  model: fixdata.realm
+  pk: 22
+- fields: {name: Bronzebeard}
+  model: fixdata.realm
+  pk: 23
+- fields: {name: Burning Blade}
+  model: fixdata.realm
+  pk: 24
+- fields: {name: Burning Legion}
+  model: fixdata.realm
+  pk: 25
+- fields: {name: Burning Steppes}
+  model: fixdata.realm
+  pk: 26
+- fields: {name: Chamber of Aspects}
+  model: fixdata.realm
+  pk: 27
+- fields: {name: Chromaggus}
+  model: fixdata.realm
+  pk: 28
+- fields: {name: Crushridge}
+  model: fixdata.realm
+  pk: 29
+- fields: {name: Daggerspine}
+  model: fixdata.realm
+  pk: 30
+- fields: {name: Darkmoon Faire}
+  model: fixdata.realm
+  pk: 31
+- fields: {name: Darksorrow}
+  model: fixdata.realm
+  pk: 32
+- fields: {name: Darkspear}
+  model: fixdata.realm
+  pk: 33
+- fields: {name: Deathwing}
+  model: fixdata.realm
+  pk: 34
+- fields: {name: Defias Brotherhood}
+  model: fixdata.realm
+  pk: 35
+- fields: {name: Dentarg}
+  model: fixdata.realm
+  pk: 36
+- fields: {name: Doomhammer}
+  model: fixdata.realm
+  pk: 37
+- fields: {name: Draenor}
+  model: fixdata.realm
+  pk: 38
+- fields: {name: Dragonblight}
+  model: fixdata.realm
+  pk: 39
+- fields: {name: Dragonmaw}
+  model: fixdata.realm
+  pk: 40
+- fields: {name: Drak'thul}
+  model: fixdata.realm
+  pk: 41
+- fields: {name: Dunemaul}
+  model: fixdata.realm
+  pk: 42
+- fields: {name: Earthen Ring}
+  model: fixdata.realm
+  pk: 43
+- fields: {name: Emerald Dream}
+  model: fixdata.realm
+  pk: 44
+- fields: {name: Emeriss}
+  model: fixdata.realm
+  pk: 45
+- fields: {name: Eonar}
+  model: fixdata.realm
+  pk: 46
+- fields: {name: Executus}
+  model: fixdata.realm
+  pk: 47
+- fields: {name: Frostmane}
+  model: fixdata.realm
+  pk: 48
+- fields: {name: Frostwhisper}
+  model: fixdata.realm
+  pk: 49
+- fields: {name: Genjuros}
+  model: fixdata.realm
+  pk: 50
+- fields: {name: Ghostlands}
+  model: fixdata.realm
+  pk: 51
+- fields: {name: Grim Batol}
+  model: fixdata.realm
+  pk: 52
+- fields: {name: Hakkar}
+  model: fixdata.realm
+  pk: 53
+- fields: {name: Haomarush}
+  model: fixdata.realm
+  pk: 54
+- fields: {name: Hellfire}
+  model: fixdata.realm
+  pk: 55
+- fields: {name: Hellscream}
+  model: fixdata.realm
+  pk: 56
+- fields: {name: Jaedenar}
+  model: fixdata.realm
+  pk: 57
+- fields: {name: Karazhan}
+  model: fixdata.realm
+  pk: 58
+- fields: {name: Kazzak}
+  model: fixdata.realm
+  pk: 59
+- fields: {name: Khadgar}
+  model: fixdata.realm
+  pk: 60
+- fields: {name: Kilrogg}
+  model: fixdata.realm
+  pk: 61
+- fields: {name: Kor'gall}
+  model: fixdata.realm
+  pk: 62
+- fields: {name: Kul Tiras}
+  model: fixdata.realm
+  pk: 63
+- fields: {name: Laughing Skull}
+  model: fixdata.realm
+  pk: 64
+- fields: {name: Lightbringer}
+  model: fixdata.realm
+  pk: 65
+- fields: {name: Lightning's Blade}
+  model: fixdata.realm
+  pk: 66
+- fields: {name: Magtheridon}
+  model: fixdata.realm
+  pk: 67
+- fields: {name: Mazrigos}
+  model: fixdata.realm
+  pk: 68
+- fields: {name: Moonglade}
+  model: fixdata.realm
+  pk: 69
+- fields: {name: Nagrand}
+  model: fixdata.realm
+  pk: 70
+- fields: {name: Neptulon}
+  model: fixdata.realm
+  pk: 71
+- fields: {name: Nordrassil}
+  model: fixdata.realm
+  pk: 72
+- fields: {name: Outland}
+  model: fixdata.realm
+  pk: 73
+- fields: {name: Quel'Thalas}
+  model: fixdata.realm
+  pk: 74
+- fields: {name: Ragnaros}
+  model: fixdata.realm
+  pk: 75
+- fields: {name: Ravencrest}
+  model: fixdata.realm
+  pk: 76
+- fields: {name: Ravenholdt}
+  model: fixdata.realm
+  pk: 77
+- fields: {name: Runetotem}
+  model: fixdata.realm
+  pk: 78
+- fields: {name: Saurfang}
+  model: fixdata.realm
+  pk: 79
+- fields: {name: Scarshield Legion}
+  model: fixdata.realm
+  pk: 80
+- fields: {name: Shadow Moon}
+  model: fixdata.realm
+  pk: 81
+- fields: {name: Shadowsong}
+  model: fixdata.realm
+  pk: 82
+- fields: {name: Shattered Halls}
+  model: fixdata.realm
+  pk: 83
+- fields: {name: Shattered Hand}
+  model: fixdata.realm
+  pk: 84
+- fields: {name: Silvermoon}
+  model: fixdata.realm
+  pk: 85
+- fields: {name: Skullcrusher}
+  model: fixdata.realm
+  pk: 86
+- fields: {name: Spinebreaker}
+  model: fixdata.realm
+  pk: 87
+- fields: {name: Sporeggar}
+  model: fixdata.realm
+  pk: 88
+- fields: {name: Steamwheedle Cartel}
+  model: fixdata.realm
+  pk: 89
+- fields: {name: Stonemaul}
+  model: fixdata.realm
+  pk: 90
+- fields: {name: Stormrage}
+  model: fixdata.realm
+  pk: 91
+- fields: {name: Stormreaver}
+  model: fixdata.realm
+  pk: 92
+- fields: {name: Stormscale}
+  model: fixdata.realm
+  pk: 93
+- fields: {name: Sunstrider}
+  model: fixdata.realm
+  pk: 94
+- fields: {name: Sylvanas}
+  model: fixdata.realm
+  pk: 95
+- fields: {name: Talnivarr}
+  model: fixdata.realm
+  pk: 96
+- fields: {name: Tarren Mill}
+  model: fixdata.realm
+  pk: 97
+- fields: {name: Terenas}
+  model: fixdata.realm
+  pk: 98
+- fields: {name: Terokkar}
+  model: fixdata.realm
+  pk: 99
+- fields: {name: The Maelstrom}
+  model: fixdata.realm
+  pk: 100
+- fields: {name: The Sha'tar}
+  model: fixdata.realm
+  pk: 101
+- fields: {name: The Venture Co}
+  model: fixdata.realm
+  pk: 102
+- fields: {name: Thunderhorn}
+  model: fixdata.realm
+  pk: 103
+- fields: {name: Trollbane}
+  model: fixdata.realm
+  pk: 104
+- fields: {name: Turalyon}
+  model: fixdata.realm
+  pk: 105
+- fields: {name: Twilight's Hammer}
+  model: fixdata.realm
+  pk: 106
+- fields: {name: Twisting Nether}
+  model: fixdata.realm
+  pk: 107
+- fields: {name: Vashj}
+  model: fixdata.realm
+  pk: 108
+- fields: {name: Vek'nilash}
+  model: fixdata.realm
+  pk: 109
+- fields: {name: Wildhammer}
+  model: fixdata.realm
+  pk: 110
+- fields: {name: Xavius}
+  model: fixdata.realm
+  pk: 111
+- fields: {name: Zenedar}
+  model: fixdata.realm
+  pk: 112
+- fields: {name: DPS}
+  model: fixdata.role
+  pk: 1
+- fields: {name: Healing}
+  model: fixdata.role
+  pk: 2
+- fields: {name: Tank}
+  model: fixdata.role
+  pk: 3

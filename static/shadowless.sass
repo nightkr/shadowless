@@ -1,0 +1,120 @@
+@import "foundation/scss/foundation"
+
+@mixin playable-class($color)
+    background-color: transparentize($color, 0.8) !important
+
+    &:hover
+        background-color: transparentize($color, 0.6) !important
+
+nav.main-nav
+    ul
+        @extend .inline-list
+
+        margin-bottom: 0
+
+        li
+            padding: 5px
+
+            &.selected, &.ancestor
+                background-color: transparentize(#000000, 0.95)
+
+.sidebar
+    &.sidebar-left
+        // @include grid-column(/* columns: */ 3, /* last column: */ false, /* center: */ false, /* offset: */ false, /* push: */ false, /* pull: */ 9, /* collapse: */ true, /* float: */ left)
+
+    .widget
+        border: 1px solid #CCC
+        margin-bottom: 10px
+
+        h2:first-child
+            background-color: #F8F8F8
+            margin-top: 0
+            border-bottom: 1px solid #EEE
+            font-size: 22px
+
+        *:not(div)
+            padding:
+                left: 5px
+                right: 5px
+            border:
+                left: none
+                right: none
+            margin-bottom: 0.25em
+
+        .widget-plugin
+            &, .cms_plugin
+                > :nth-child(2)
+                    border-top: none
+
+                > :last-child
+                    margin-bottom: 0
+                    border-bottom: none
+
+        table
+            padding-top: 5px
+
+        > div:only-child
+            padding: 0
+            margin: 0
+
+table.roster
+    width: 100%
+
+    > tbody > tr
+        > td,th
+            > ul
+                list-style-position: inside
+                margin-bottom: 0
+
+.death-knight
+    @include playable-class(#C41F3B)
+
+.druid
+    @include playable-class(#FF7D0A)
+
+.hunter
+    @include playable-class(#ABD473)
+
+.mage
+    @include playable-class(#69CCF0)
+
+.monk
+    @include playable-class(#00FF96)
+
+.paladin
+    @include playable-class(#F58CBA)
+
+.priest
+    @include playable-class(#CFCFCF)
+
+.rogue
+    @include playable-class(#FFF569)
+
+.shaman
+    @include playable-class(#0070DE)
+
+.warlock
+    @include playable-class(#9482C9)
+
+.warrior
+    @include playable-class(#C79C6E)
+
+table > tbody > tr
+    &:hover
+        &:nth-of-type(even)
+            background-color: transparentize(#CFCFCF, 0.6)
+
+        &:nth-of-type(odd)
+            background-color: transparentize(#CFCFCF, 0.8)
+
+input[type=submit]
+    @extend .button
+
+form
+    p.field.errors
+        @extend .error
+
+    .errorlist
+        position: absolute
+        right: 1.25em
+        list-style: none

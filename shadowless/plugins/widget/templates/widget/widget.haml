@@ -1,0 +1,8 @@
+- load cms_tags
+
+.widget
+    - if not instance.hide_title
+        %h2= instance.title
+    - for plugin in instance.child_plugin_instances
+        .widget-plugin
+            - render_plugin plugin

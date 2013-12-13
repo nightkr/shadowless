@@ -1,0 +1,8 @@
+- if ancestors|length > 1
+    %ul.breadcrumbs
+        - for ance in ancestors
+            - if forloop.last
+                %li.current= ance.get_menu_title
+            - else
+                %li
+                    %a{:href => "{{ance.get_absolute_url}}"}= ance.get_menu_title

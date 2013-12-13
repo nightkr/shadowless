@@ -1,0 +1,8 @@
+#[submodule "foundation"]
+#	path = foundation
+#	url = https://github.com/zurb/foundation.git
+#	branch = scss-standalone
+[submodule "static/foundation"]
+	path = shadowless/main/static/foundation
+	url = https://github.com/zurb/foundation.git
+	branch = scss-standalone

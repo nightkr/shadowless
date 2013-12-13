@@ -1,0 +1,21 @@
+# django-cms 3.0 beta
+-e git+https://github.com/divio/django-cms.git@c1c100432e2163e2b24aebfab96d20a0dcd0c45f#egg=django-cms
+
+Pillow>=2.0.0
+django-filer>=0.9.4
+cmsplugin-filer>=0.9.5
+django-reversion>=1.7, <1.8
+
+# djangocms-text-ckeditor
+-e git+https://github.com/divio/djangocms-text-ckeditor.git@c2fba71969ab12a521bf15af93035a1b13892191#egg=djangocms-text-ckeditor
+djangocms-table
+django-compressor
+
+psycopg2
+hamlpy
+docutils
+PyYAML
+requests
+enum34
+
+-e git://github.com/philomat/django-form-designer.git@141a820090d8665fdc31bec75e4db2c4a22c8fc8#egg=django-form-designer
