@@ -5,6 +5,7 @@ PyYAML==3.10
 Pygments==1.6
 South==0.8.4
 cmsplugin-filer==0.9.5
+dj-static==0.0.5
 django-appconf==0.6
 django-classy-tags==0.4
 -e git+https://github.com/divio/django-cms.git@c1c100432e2163e2b24aebfab96d20a0dcd0c45f#egg=django_cms-dev
@@ -27,4 +28,5 @@ html5lib==1.0b3
 psycopg2==2.5.1
 requests==2.1.0
 six==1.4.1
+static==0.4
 wsgiref==0.1.2

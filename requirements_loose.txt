@@ -17,5 +17,6 @@ docutils
 PyYAML
 requests
 enum34
+dj-static
 
 -e git://github.com/philomat/django-form-designer.git@141a820090d8665fdc31bec75e4db2c4a22c8fc8#egg=django-form-designer
