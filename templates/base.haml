@@ -1,5 +1,5 @@
 !!! 5
-- load sekizai_tags cms_tags menu_tags stack_tags compressed
+- load sekizai_tags cms_tags menu_tags compressed
 %html
     %head
         %title Shadowless@Al'Akir-EU
@@ -30,14 +30,14 @@
             / This is source ordered to be pulled to the left on larger screens
             .large-3.pull-9.columns.sidebar.sidebar-left
                 - placeholder page_sidebar
-                - stack "sidebar"
+                - static_placeholder "sidebar"
         / Footer
         %footer.row
             .large-12.columns
                 %hr/
                 .row
                     .large-6.columns
-                        - stack "footer"
+                        - static_placeholder "footer"
                         / %p © Copyright IS VERY RESERVED!!!
                     .large-6.columns
                         .inline-list.right
