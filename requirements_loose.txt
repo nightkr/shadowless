@@ -1,5 +1,5 @@
 # django-cms 3.0 beta
--e git+https://github.com/divio/django-cms.git@6795039f573609afb5ee8b871a06a90b2d395554#egg=django-cms
+-e git+https://github.com/divio/django-cms.git@10b8eb2615fc45ba8db9aa2993f5b0c4c7204031#egg=django-cms
 
 Pillow>=2.0.0
 django-filer>=0.9.4
