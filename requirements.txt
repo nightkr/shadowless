@@ -7,7 +7,7 @@ South==0.8.4
 cmsplugin-filer==0.9.5
 dj-static==0.0.5
 django-classy-tags==0.4
--e git+https://github.com/divio/django-cms.git@c1c100432e2163e2b24aebfab96d20a0dcd0c45f#egg=django_cms-dev
+-e git+https://github.com/divio/django-cms.git@6795039f573609afb5ee8b871a06a90b2d395554#egg=django_cms-dev
 django-filer==0.9.5
 -e git://github.com/philomat/django-form-designer.git@141a820090d8665fdc31bec75e4db2c4a22c8fc8#egg=django_form_designer-dev
 django-mptt==0.6.0
