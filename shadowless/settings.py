@@ -122,6 +122,8 @@ PIPELINE_COMPILERS = (
     'pipeline.compilers.sass.SASSCompiler',
 )
 
+PIPELINE_SASS_BINARY = '/usr/bin/env bundler exec sass'
+
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'mu8s70b8)qh-9v2c9b!6(o0@5dl&$&#7i5hl_nrd9o!nkahnwc'
 
