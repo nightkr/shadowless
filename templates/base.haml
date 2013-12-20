@@ -1,11 +1,11 @@
 !!! 5
-- load sekizai_tags cms_tags menu_tags stack_tags
+- load sekizai_tags cms_tags menu_tags stack_tags compressed
 %html
     %head
         %title Shadowless@Al'Akir-EU
-        - render_block "css" postprocessor "compressor.contrib.sekizai.compress"
+        - render_block "css"
         - addtoblock "css"
-            %link{:href => "/static/shadowless.sass", :rel => "stylesheet", :type => "text/x-sass"}
+            - compressed_css 'main'
         - endaddtoblock
     %body
         - cms_toolbar
@@ -44,24 +44,9 @@
                             %nav.main-nav
                                 %ul
                                     - show_menu 0
-        - render_block "js" postprocessor "compressor.contrib.sekizai.compress"
+        - render_block "js"
         - addtoblock "js"
-            %script{:src => "/static/foundation/js/vendor/jquery.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.alerts.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.clearing.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.cookie.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.dropdown.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.forms.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.joyride.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.magellan.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.orbit.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.placeholder.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.reveal.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.section.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.tooltips.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.topbar.js"}
-            %script{:src => "/static/foundation/js/foundation/foundation.interchange.js"}
+            - compressed_js 'main'
             :javascript
                 $(document).foundation();
         - endaddtoblock

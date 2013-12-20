@@ -94,9 +94,32 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-COMPRESS_PRECOMPILERS = (
-    ('text/x-scss', 'bundle exec sass --scss {infile} {outfile}'),
-    ('text/x-sass', 'bundle exec sass {infile} {outfile}'),
+STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
+
+PIPELINE_CSS = {
+    'main': {
+        'source_filenames': (
+            'shadowless.sass',
+        ),
+        'output_filename': 'pipeline/shadowless.css',
+    }
+}
+
+PIPELINE_JS = {
+    'main': {
+        'source_filenames': (
+            'foundation/js/vendor/jquery.js',
+            'foundation/js/foundation/*.js',
+        ),
+        'output_filename': 'pipeline/shadowless.js',
+    }
+}
+
+PIPELINE_CSS_COMPRESSOR = None
+PIPELINE_JS_COMPRESSOR = None
+
+PIPELINE_COMPILERS = (
+    'pipeline.compilers.sass.SASSCompiler',
 )
 
 # Make this unique, and don't share it with anybody.
@@ -172,7 +195,7 @@ INSTALLED_APPS = (
     'south',
     'sekizai',
     'reversion',
-    'compressor',
+    'pipeline',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',

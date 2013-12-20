@@ -9,7 +9,7 @@ django-reversion>=1.7, <1.8
 # djangocms-text-ckeditor
 -e git+https://github.com/divio/djangocms-text-ckeditor.git@c2fba71969ab12a521bf15af93035a1b13892191#egg=djangocms-text-ckeditor
 djangocms-table
-django-compressor
+django-pipeline
 
 psycopg2
 hamlpy
