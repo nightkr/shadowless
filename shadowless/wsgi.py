@@ -24,6 +24,11 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "shadowless.settings")
 # Need to import this module before we start the application when using WSGI, or it craps out for some reason
 import form_designer.contrib.cms_plugins.form_designer_form.models
 
+from django.conf import settings
+if settings.NEW_RELIC_CONFIG_FILE:
+	import newrelic.agent
+	newrelic.agent.initialize(settings.NEW_RELIC_CONFIG_FILE)
+
 # This application object is used by any WSGI server configured to use this
 # file. This includes Django's development server, if the WSGI_APPLICATION
 # setting points here.

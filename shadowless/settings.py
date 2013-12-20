@@ -246,6 +246,9 @@ LOGGING = {
     },
 }
 
+# Set this to enable newrelic statistics in WSGI mode
+NEW_RELIC_CONFIG_FILE = None
+
 EMAIL_HOST = "192.168.0.110"
 
 WOW_REGION = 'eu'

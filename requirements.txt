@@ -25,6 +25,7 @@ enum34==0.9.19
 futures==2.1.5
 hamlpy==0.82.2
 html5lib==1.0b3
+newrelic==2.8.0.7
 psycopg2==2.5.1
 requests==2.1.0
 six==1.4.1
