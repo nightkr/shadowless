@@ -252,6 +252,6 @@ NEW_RELIC_CONFIG_FILE = None
 EMAIL_HOST = "192.168.0.110"
 
 WOW_REGION = 'eu'
-WOW_MAIN_GUILD = 'Shadowless'
+WOW_MAIN_GUILD = 'Toxic Waste'
 WOW_MAIN_SERVER = 'Al\'Akir'
 WOW_ARMORY_BASE_URL = 'http://%s.battle.net/wow/en/' % WOW_REGION
