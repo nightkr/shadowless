@@ -33,4 +33,4 @@ def get_char_talents(realm, name):
         'char': name,
     }
     r = get(url).json()
-    return [data.PlayerTalentSpec(i['spec']['name'], i['spec']['role']) for i in r['talents'] if "spec" in i]
+    return [data.PlayerTalentSpec(i['spec']['name'], i['spec']['role']) for i in r.get('talents', []) if "spec" in i]
