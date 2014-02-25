@@ -26,7 +26,7 @@ class Command(BaseCommand):
 
         self.stdout.write("Downloading guild data")
         api_guild_members = wowdata.get_guild_members(api_guild)
-        guild = Guild.objects.get()
+        guild = Guild.objects.get(name=guild.name, realm=guild.realm)
 
         for api_member in api_guild_members:
             try:
