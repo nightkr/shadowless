@@ -1,6 +1,5 @@
 # django-cms 3.0 rc1
 django-cms==3.0c1
-#-e git+https://github.com/divio/django-cms.git@10b8eb2615fc45ba8db9aa2993f5b0c4c7204031#egg=django-cms
 
 Pillow>=2.0.0
 django-filer>=0.9.4
@@ -18,7 +17,6 @@ djangocms-video
 djangocms-link
 djangocms-snippet
 
-#-e git+https://github.com/divio/djangocms-text-ckeditor.git@c2fba71969ab12a521bf15af93035a1b13892191#egg=djangocms-text-ckeditor
 djangocms-table
 django-pipeline
 
