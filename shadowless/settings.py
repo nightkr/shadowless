@@ -39,7 +39,7 @@ TIME_ZONE = 'Europe/Stockholm'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 LANGUAGES = [
     ('en', 'English'),
@@ -142,7 +142,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.media',
     'django.core.context_processors.static',
-    'cms.context_processors.media',
+    'cms.context_processors.cms_settings',
     'sekizai.context_processors.sekizai',
 )
 
@@ -179,18 +179,15 @@ CMS_TEMPLATES = (
 )
 
 INSTALLED_APPS = (
-    'cms.plugins.link',
-    'cms.plugins.teaser',
+    'djangocms_link',
+    'djangocms_teaser',
     'djangocms_text_ckeditor',
     'djangocms_table',
-    'form_designer',
-    'form_designer.contrib.cms_plugins.form_designer_form',
     'shadowless.plugins.widget',
     'shadowless.fixdata',
     'shadowless.roster',
 
     'cms',
-    'cms.stacks',
     'mptt',
     'menus',
     'south',

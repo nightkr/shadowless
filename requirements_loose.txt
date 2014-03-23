@@ -1,13 +1,24 @@
-# django-cms 3.0 beta
--e git+https://github.com/divio/django-cms.git@10b8eb2615fc45ba8db9aa2993f5b0c4c7204031#egg=django-cms
+# django-cms 3.0 rc1
+django-cms==3.0c1
+#-e git+https://github.com/divio/django-cms.git@10b8eb2615fc45ba8db9aa2993f5b0c4c7204031#egg=django-cms
 
 Pillow>=2.0.0
 django-filer>=0.9.4
 cmsplugin-filer>=0.9.5
-django-reversion>=1.7, <1.8
+django-reversion
 
-# djangocms-text-ckeditor
--e git+https://github.com/divio/djangocms-text-ckeditor.git@c2fba71969ab12a521bf15af93035a1b13892191#egg=djangocms-text-ckeditor
+djangocms-text-ckeditor
+djangocms-file
+djangocms-flash
+djangocms-googlemap
+djangocms-inherit
+djangocms-picture
+djangocms-teaser
+djangocms-video
+djangocms-link
+djangocms-snippet
+
+#-e git+https://github.com/divio/djangocms-text-ckeditor.git@c2fba71969ab12a521bf15af93035a1b13892191#egg=djangocms-text-ckeditor
 djangocms-table
 django-pipeline
 
@@ -18,7 +29,5 @@ PyYAML
 requests
 enum34
 dj-static
-
--e git://github.com/philomat/django-form-designer.git@141a820090d8665fdc31bec75e4db2c4a22c8fc8#egg=django-form-designer
 
 newrelic

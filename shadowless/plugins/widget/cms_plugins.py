@@ -1,6 +1,6 @@
-from cms.api import CMSPluginBase, CMSPlugin, plugin_pool
+from cms.plugin_base import CMSPluginBase
+from cms.plugin_pool import plugin_pool
 from shadowless.plugins.widget.models import WidgetModel
-#from cms.plugin_pool import plugin_pool
 
 class Widget(CMSPluginBase):
     model = WidgetModel

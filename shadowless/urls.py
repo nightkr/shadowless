@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 from django.conf import settings
@@ -15,6 +15,5 @@ if settings.DEBUG:
     urlpatterns = patterns('',
     url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
-    url(r'^forms/', include('form_designer.urls')),
     url(r'', include('django.contrib.staticfiles.urls')),
 ) + urlpatterns
